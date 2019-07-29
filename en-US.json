@@ -1,0 +1,412 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "movies recommender",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GenreIntent",
+                    "slots": [
+                        {
+                            "name": "genre",
+                            "type": "genre"
+                        }
+                    ],
+                    "samples": [
+                        "some  best movies in {genre}",
+                        "how about the best movies in {genre}",
+                        "something  in {genre} please ",
+                        "tell me anything in {genre} ",
+                        "tell me some good {genre} movies ",
+                        "i would love to see something in {genre} ",
+                        "i would love to see {genre} ",
+                        "i would love to watch {genre} movies ",
+                        "please suggest some {genre} movies ",
+                        "please recommend me {genre} movies ",
+                        "recommend me {genre} movies ",
+                        "suggest me something {genre}",
+                        "suggest something {genre}",
+                        "please recommend some {genre} movies",
+                        "{genre} movies recommendation",
+                        "tell me something from {genre}",
+                        "tell me something in {genre}",
+                        "give me a movie recommendation in {genre}",
+                        "please suggest something in {genre}",
+                        "please tell something in {genre}",
+                        "please recommend something in {genre}",
+                        "suggest something in {genre} movies",
+                        "suggest something from {genre} movies",
+                        "suggest something in {genre}",
+                        "suggest something from {genre}",
+                        "need {genre}",
+                        "need {genre} please ",
+                        "in need to watch something in {genre}",
+                        "in mood for some {genre}",
+                        "exceptionally good in {genre}",
+                        "the very best in {genre}",
+                        "what about something very popular in {genre}",
+                        "tell me something very good in {genre}",
+                        "want to see anything in {genre} kind",
+                        "want to see anything  {genre}",
+                        "want to see anything in {genre}",
+                        "in the mood for something in {genre}",
+                        "in the mood for some {genre}",
+                        "your very best in {genre}",
+                        "best in {genre}",
+                        "everything good in {genre}",
+                        "something amazing in {genre}",
+                        "something good in {genre}",
+                        "something popular in {genre}",
+                        "any popular {genre}",
+                        "any top rated {genre}",
+                        "only {genre}",
+                        "everything thats {genre}",
+                        "everything that is good in {genre}",
+                        "anything that is {genre}",
+                        "in {genre} please",
+                        "how about something  {genre} like",
+                        "what about something good in {genre}",
+                        "how about anything in {genre}",
+                        "tell any in {genre}",
+                        "tell something in {genre}",
+                        "tell in {genre}",
+                        "everything that is {genre}",
+                        "anything in {genre}",
+                        "suggest somehting in {genre}",
+                        "please suggest somehting in {genre}",
+                        "how about something in {genre}",
+                        "how about  something {genre}",
+                        "I want movies in {genre}",
+                        "I like movies from the {genre}",
+                        "i want {genre}",
+                        "i will enjoy {genre} surely",
+                        "i am fond of {genre}",
+                        "I would love anything in {genre}",
+                        "i would enjoy {genre}",
+                        "i would love something in {genre}",
+                        "I would love some movies in  {genre}",
+                        "I would love some {genre}",
+                        "I love to watch {genre} movies",
+                        "I love to watch {genre} ",
+                        "I love {genre}",
+                        "lets try some {genre}  movie",
+                        "lets try some {genre} movies",
+                        "lets try some {genre}",
+                        "lets see some  {genre} movie",
+                        "lets see some {genre}",
+                        "lets see some in {genre}",
+                        "I will go with  {genre}",
+                        "I will go with anything in {genre}",
+                        "I prefer {genre}",
+                        "I am in the mood of {genre}",
+                        "i want some {genre}",
+                        "please something like {genre}",
+                        "give me something in {genre}",
+                        "want something in {genre}",
+                        "show {genre}",
+                        "lets see {genre}",
+                        "in {genre}",
+                        "something  in {genre} ",
+                        "please {genre}",
+                        "want to see {genre}",
+                        "want {genre}",
+                        "how about {genre}",
+                        "how about something {genre}",
+                        "want to watch {genre}",
+                        "something {genre} like",
+                        "{genre} please",
+                        "some {genre}",
+                        "suggest {genre} movies",
+                        "something {genre}",
+                        "{genre} ",
+                        "type {genre}",
+                        "{genre} type",
+                        "I wanna watch some good {genre} movies",
+                        "suggest some {genre} movies",
+                        "I want to watch {genre} ",
+                        "{genre} kind"
+                    ]
+                },
+                {
+                    "name": "AgeIntent",
+                    "slots": [
+                        {
+                            "name": "age",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "something about {age}",
+                        "somewhat around {age}",
+                        "approx {age}",
+                        "{age} approx",
+                        "{age} approximately",
+                        "approximately {age}",
+                        "{age} somewhat",
+                        "somewhat {age}",
+                        "{age} below",
+                        "{age} above",
+                        "far below {age}",
+                        "far above {age}",
+                        "higher than {age}",
+                        "below {age}",
+                        "above {age}",
+                        "{age}",
+                        "around {age}  ",
+                        "near to {age}   "
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "genre",
+                    "values": [
+                        {
+                            "id": "37",
+                            "name": {
+                                "value": "western",
+                                "synonyms": [
+                                    "cowboy"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "10752",
+                            "name": {
+                                "value": "war",
+                                "synonyms": [
+                                    "which changed lives "
+                                ]
+                            }
+                        },
+                        {
+                            "id": "9648",
+                            "name": {
+                                "value": "mystery",
+                                "synonyms": [
+                                    "puzzling",
+                                    "puzzly"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "10402",
+                            "name": {
+                                "value": "music",
+                                "synonyms": [
+                                    "musical",
+                                    "musically"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "36",
+                            "name": {
+                                "value": "history",
+                                "synonyms": [
+                                    "nerdy"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "18",
+                            "name": {
+                                "value": "drama",
+                                "synonyms": [
+                                    "dramatic",
+                                    "melodramatic"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "99",
+                            "name": {
+                                "value": "documentary",
+                                "synonyms": [
+                                    "nerdy"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "80",
+                            "name": {
+                                "value": "crime"
+                            }
+                        },
+                        {
+                            "id": "12",
+                            "name": {
+                                "value": "adventure",
+                                "synonyms": [
+                                    "interesting"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "10751",
+                            "name": {
+                                "value": "family"
+                            }
+                        },
+                        {
+                            "id": "878",
+                            "name": {
+                                "value": "sci fi",
+                                "synonyms": [
+                                    "sci-fi",
+                                    "science fiction",
+                                    "cool"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "35",
+                            "name": {
+                                "value": "comedy",
+                                "synonyms": [
+                                    "chill",
+                                    "lite",
+                                    "funny"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "16",
+                            "name": {
+                                "value": "animated",
+                                "synonyms": [
+                                    "children"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "14",
+                            "name": {
+                                "value": "fantasy",
+                                "synonyms": [
+                                    "imaginative"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "0",
+                            "name": {
+                                "value": "any",
+                                "synonyms": [
+                                    "your best",
+                                    "mix",
+                                    "anything",
+                                    "most popular",
+                                    "highest rated",
+                                    "the best",
+                                    "some good",
+                                    "random"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "27",
+                            "name": {
+                                "value": "horror",
+                                "synonyms": [
+                                    "creepy",
+                                    "scary"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "53",
+                            "name": {
+                                "value": "thriller"
+                            }
+                        },
+                        {
+                            "id": "10749",
+                            "name": {
+                                "value": "romantic",
+                                "synonyms": [
+                                    "romance",
+                                    "gooey"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "28",
+                            "name": {
+                                "value": "action"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "GenreIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "genre",
+                            "type": "genre",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1034290430738.1048200650141"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "delegationStrategy": "ALWAYS"
+        },
+        "prompts": [
+            {
+                "id": "Elicit.Slot.1034290430738.1048200650141",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "I would like to watch thriller what kind would you like"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": " what kind of movie would you like to watch"
+                    }
+                ]
+            },
+            {
+                "id": "Slot.Validation.1044178324102.362545589134.613483686106",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "I am sorry but I can only recommend movies in Action, Thriller, Comedy, Romance, Horror, Mystery and Crime."
+                    }
+                ]
+            }
+        ]
+    }
+}
